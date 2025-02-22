@@ -1,0 +1,13 @@
+.button_navbar{
+    background-color: #F57438;
+    font-size:16px;
+    color:white;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:12px;
+    padding-bottom:12px;
+    border-radius:0px;
+}
+.button_navbar svg{
+    margin-right: 10px;
+}
