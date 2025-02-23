@@ -1,0 +1,60 @@
+.how-robot-works{
+ padding:0;
+}
+.how-robot-works-first{
+text-align:left;
+    height:auto;
+    padding-left: 8.6vw;
+    padding-right: 8.6vw;
+    /*width:100%;*/
+    background-color: white;
+    padding-top: 14vw;
+}
+.how-robot-works-second{
+    padding-left: 8.6vw;
+    padding-right: 8.6vw;
+    padding-top: 9.5vw;
+    background-color:#0A0048;
+    padding-bottom:9.5vw;
+}
+.img-hero-works {
+    position: absolute;
+    width: 724px;
+    height: 734px;
+    left: 3.5vw;
+    margin-top: -60px;
+}
+.how-robot-works-first h2{
+    color:black;
+}
+.how-robot-works-first h6{
+    color:#737373;
+}
+.container-sally{
+    padding-bottom:9.7vw;
+}
+h6 .read-more-arrow{
+    color:#1B088C;
+    padding-left: 12px;
+}
+h6.read-more{
+    color:#1B088C;
+}
+.sally-robot{
+    padding-top:32px;
+    padding-bottom:32px;
+}
+.sally-title{
+    color: #F57438;
+}
+.sally-description{
+    padding-top:16px;
+    color: rgba(255,255,255,0.7);
+}
+.sally-bottom{
+    position:absolute;
+    width: 38.7vw;
+    /*height: 27.7vw;*/
+    right:0;
+    padding:0;
+}

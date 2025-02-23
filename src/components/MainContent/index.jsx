@@ -1,7 +1,10 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import {Container, Row, Col} from 'react-bootstrap';
 import Hero from './Hero';
-// import Features from './Features';
+import HeroClients from './HeroClients';
+import FeaturesSection from './FeaturesSection';
+import UpdatedVersion from './UpdatedVersion';
+import HowRobotWorks from './HowRobotWorks';
 // import UpdateSection from './UpdateSection';
 // import RobotShowcase from './RobotShowcase';
 // import OptimizationTips from './OptimizationTips';
@@ -11,19 +14,21 @@ import '../../css/hero.css';
 
 const MainContent = () => {
     return (
-        <Container className="hero-container">
-            {/*<Row>*/}
-            {/*    <Col  xs={12} md={6} lg={4}>1 of 3</Col>*/}
-            {/*    <Col  xs={12} md={6} lg={4}>2 of 3 (wider)</Col>*/}
-            {/*    <Col  xs={12} md={6} lg={4} xxl={4}>3 of 3</Col>*/}
-            {/*</Row>*/}
-            {/*<Row>*/}
-            {/*    <Col>1 of 3</Col>*/}
-            {/*    <Col xs={5}>2 of 3 (wider)</Col>*/}
-            {/*    <Col>3 of 3</Col>*/}
-            {/*</Row>*/}
-            <Hero />
-            {/*<Features />*/}
+        <Container>
+            <Container className="hero-container">
+                <Hero/>
+            </Container>
+
+            <Container className="hero-clients-container position-relative" style={{zIndex: 2}}>
+                <HeroClients/>
+            </Container>
+
+            <Container className="features-container">
+                <FeaturesSection/>
+                <UpdatedVersion/>
+            </Container>
+
+            <HowRobotWorks/>
             {/*<UpdateSection />*/}
             {/*<RobotShowcase />*/}
             {/*<OptimizationTips />*/}

@@ -5,7 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 const Footer = () => (
     <Container fluid className="text-white p-5">
-        <h2>Trusted by over 32,000 founder customers</h2>
+        {/*<h2>Trusted by over 32,000 founder customers</h2>*/}
         <Row>
             {/*<Col md={4}><TestimonialCard name="Jane Doe" quote="Sally’s robot changed my business..." /></Col>*/}
             {/*<Col md={4}><TestimonialCard name="John Smith" quote="Incredible technology..." /></Col>*/}

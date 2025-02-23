@@ -1,0 +1,39 @@
+.features-container {
+    background-color: #ffffff;
+    padding-left: 8.6vw;
+    padding-right: 8.6vw;
+    padding-top:8.4vw;
+}
+
+h3.features {
+    color: #000000;
+    text-align:left;
+}
+
+.features span {
+    color: #1B088C;
+}
+.features-cont{
+    align-items: center;
+}
+.features-text{
+    color: #353535;
+}
+.features-resp{
+    margin-right:20px;
+}
+.features-left{
+    padding-left:90px;
+}
+h5.features-simple-text{
+    color:#737373;
+    font-weight:400;
+}
+
+.text-feat{
+    padding-left:24px;
+    text-align:left
+}
+.text-features{
+    padding-left:40px;
+}

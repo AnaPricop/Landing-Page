@@ -1,0 +1,47 @@
+.updated-version-container{
+    padding-top:120px;
+}
+h2.updated-version{
+    color: black;
+    text-align:left;
+}
+.version-font{
+    font-weight:400;
+    color:black;
+}
+.version-font-purple{
+    color: #1B088C;
+}
+.updated-version-container-2{
+    padding-top:70px;
+}
+h3.features{
+    font-size:24px;
+    font-weight:600;
+    padding-top:24px;
+}
+.updated-version-container-2 h6{
+    color:#737373;
+    padding-top:16px;
+}
+h6 .read-more-arrow{
+    color:#1B088C;
+    padding-left: 12px;
+}
+h6.read-more{
+    color:#1B088C;
+}
+.middle-card{
+    background-color:#1B088C;
+    padding: 32px;
+}
+.middle-card h6 .read-more-arrow, .middle-card h6.read-more, .middle-card h6, .middle-card h3.features
+{
+    color:white;
+}
+.simple-card{
+    padding: 32px;
+}
+.simple-card-last{
+    padding-left: 50px;
+}
