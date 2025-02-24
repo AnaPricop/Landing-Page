@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import { Navbar, Nav, Button } from 'react-bootstrap';
 import CustomButton from '../../shared/Button';
-// import '../../index.css'
-import * as styles from '../../css/general.css';
 import '../../css/general.css';
 
 const Header = () => {

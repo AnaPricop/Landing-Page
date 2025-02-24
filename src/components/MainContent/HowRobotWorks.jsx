@@ -70,11 +70,7 @@ const HowRobotWorks = () => (
                         command causing an error in the
                         system</h6>
                 </Col>
-                {/*<Image*/}
-                {/*    src={sally}*/}
-                {/*    fluid*/}
-                {/*    className="sally-bottom"*/}
-                {/*/>*/}
+
             </Row>
         </Container>
     </Container>

@@ -24,41 +24,6 @@ const CustomersCards = () => {
         },
     ];
     return (
-        // <Row className="justify-content-center">
-        //     <Col md={10} xs={10} className="position-relative">
-        //         <div className="testimonial-slider d-flex justify-content-center">
-        //             {testimonials.map((testimonial, index) => (
-        //                 <Card
-        //                     key={index}
-        //                     className="testimonial-card mx-3"
-        //                     style={{width: '26vw', backgroundColor: '#FFFFFF', borderRadius: '0', borderWidth: '0'}}
-        //                 >
-        //                     <Card.Body className="d-flex flex-column justify-content-between">
-        //                         <Card.Text className="text-muted text-start">{testimonial.quote}</Card.Text>
-        //                         <div className="d-flex align-items-center text-start avatar-customer">
-        //                             <div className="avatar-placeholder"></div>
-        //                             <div className="ms-3 d-flex flex-column justify-content-center">
-        //                                 <Card.Title className="mb-0">{testimonial.name}</Card.Title>
-        //                                 <Card.Text className="text-muted small">{testimonial.title}</Card.Text>
-        //                             </div>
-        //                         </div>
-        //                     </Card.Body>
-        //                 </Card>
-        //             ))}
-        //         </div>
-        //         <Container className="d-flex justify-content-center arrows">
-        //             <Image
-        //                 src={arrow_left}
-        //                 className="px-2 arrow-img"
-        //             />
-        //             <Image
-        //                 src={arrow_right}
-        //                 className="px-2 arrow-img"
-        //             />
-        //         </Container>
-        //
-        //     </Col>
-        // </Row>
         <Row className="justify-content-center">
             <Col md={10} xs={10} className="position-relative">
         <Carousel
