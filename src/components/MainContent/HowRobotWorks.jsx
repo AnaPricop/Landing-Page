@@ -13,14 +13,14 @@ const HowRobotWorks = () => (
     <Container fluid className="how-robot-works">
         <Container fluid className="how-robot-works-first">
             <Row className="">
-                <Col md={6}>
+                <Col md={{span:6, order: 1}}  xs={{ span: 12, order: 2}}  className="second-robot">
                     <Image
                         src={robot}
                         fluid
                         className="img-hero-works"
                     />
                 </Col>
-                <Col md={6} className="container-sally">
+                <Col md={{span:6, order: 2}}  xs={{ span: 10, order: 1}}  className="container-sally">
                     <h2>See how Sally's
                         robot system works</h2>
                     <h6 className="sally-robot">Sally's robot works through voices that have been previously recorded to
@@ -32,6 +32,7 @@ const HowRobotWorks = () => (
                         className=""
                     /></span></h6>
                 </Col>
+
             </Row>
         </Container>
         <Container className="how-robot-works-second">
@@ -69,11 +70,11 @@ const HowRobotWorks = () => (
                         command causing an error in the
                         system</h6>
                 </Col>
-                <Image
-                    src={sally}
-                    fluid
-                    className="sally-bottom"
-                />
+                {/*<Image*/}
+                {/*    src={sally}*/}
+                {/*    fluid*/}
+                {/*    className="sally-bottom"*/}
+                {/*/>*/}
             </Row>
         </Container>
     </Container>

@@ -1,0 +1,54 @@
+.customers-section{
+    background: linear-gradient(to bottom, #ffffff 50%, #0A0048 50%);
+    padding-top:8.8vw;
+}
+.section-customer{
+    color:black;
+    padding-bottom:4.2vw;
+}
+.purple-section{
+    color:#1B088C;
+}
+.avatar-customer{
+    padding-top:4.3vw;
+    /*padding-bottom:2.2vw;*/
+    /*margin-bottom: -30px;*/
+}
+.avatar-placeholder{
+    width: 50px;
+    height: 50px;
+    background-color: #e9ecef;
+    border-radius: 50%;
+}
+.arrows{
+    padding-top:4.5vw;
+}
+.arrow-img{
+    width:58px;
+    height:58px;
+}
+.get-it{
+    padding-left: 8.6vw;
+    padding-right: 8.6vw;
+    padding-top:8vw;
+    padding-bottom:4.8vw;
+}
+.get-it-description{
+padding-top:6vw;
+ }
+.get-it h5{
+    color: rgba(255,255,255,0.7);
+}
+.get-it .description-button{
+    padding-top:22px;
+    color: rgba(255,255,255,0.7);
+}
+ .card-title{
+    font-size:20px !important;
+    /*margin: 20px;*/
+}
+@media only screen and (max-width: 760px) {
+    .testimonial-card {
+        width: 300px;
+    }
+}

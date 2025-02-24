@@ -1,0 +1,52 @@
+.footer {
+    padding-left: 16vw;
+    padding-right: 16vw;
+    padding-top: 5vw;
+    background-color:white;
+    background-image: url('src/assets/footer1.svg'), url('src/assets/footer2.svg'); /* Paths to your SVG files */
+    background-repeat: no-repeat, no-repeat; /* Prevent repeating */
+    background-position: bottom left, bottom right 80px; /* Position abstract shape left, robot right */
+    /*background-size: 219.5px 144.5px, 184.569px 197px;*/
+}
+@media only screen and (max-width: 760px) {
+    .footer {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 5vw;
+        background-color:white;
+        background-image: url('src/assets/footer2.svg'); /* Paths to your SVG files */
+        background-repeat: no-repeat; /* Prevent repeating */
+        background-position: bottom right 20px; /* Position abstract shape left, robot right */
+        /*background-size: 219.5px 144.5px, 184.569px 197px;*/
+    }
+}
+.footer h6{
+    color:#777777;
+    padding-bottom:15px;
+    line-height: 1;
+    font-size:15px;
+}
+.footer h5{
+    font-size:20px;
+    font-weight:500;
+    color:black;
+    padding-bottom:25px;
+}
+.container-bottom{
+    background-color:#0A0048;
+    width:100%;
+    padding:0;
+    margin:0;
+}
+.container-bottom h6{
+    padding-top:32px;
+    padding-bottom: 32px;
+    color:white;
+    text-align:center;
+    margin-bottom: 0;
+}
+.footer-row {
+    margin-top: 0 !important; /* Remove default margin-top to align rows */
+    padding-top:54px;
+    padding-bottom:30px;
+}

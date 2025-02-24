@@ -9,11 +9,20 @@
     padding-top:7.8vw;
     max-width: 100%;
     padding-bottom:97px;
+
+    /*background-image: url('src/assets/Pattern.svg');*/
+    /*background-repeat:  no-repeat;*/
+    /*background-position:  bottom -50px right -70px;*/
 }
 .hero-input{
     margin-top:57px;
     background-color:rgba(146,134,216,0.3);
     padding:16px;
+}
+@media only screen and (max-width: 970px) {
+    .hero-input{
+        padding:6px;
+    }
 }
 .input-group .form-control, .input-group .form-control:focus,
 .form-control:focus:active{
@@ -52,6 +61,12 @@
     background-color:#0A0048;
     padding-left: 8.6vw;
     padding-right: 8.6vw;
+}
+@media only screen and (max-width: 760px) {
+
+    .hero-clients-container{
+        padding-top: 200px;
+    }
 }
 h3.clients{
     color: #F57438;

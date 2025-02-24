@@ -9,7 +9,7 @@ import infrared from "../../assets/infrared.svg";
 const HeroClients = () => (
     <Container fluid>
         <Row>
-            <Col md={5} className="hero-clients-text">
+            <Col md={5} xs={12} className="hero-clients-text">
                 <h3 className="clients">1500+ Clients</h3>
                 <h5>Various clients around the world who have
                     used our products</h5>

@@ -37,3 +37,19 @@ h5.features-simple-text{
 .text-features{
     padding-left:40px;
 }
+@media only screen and (max-width: 760px) {
+    .text-features{
+        padding-left:0;
+        padding-top:20px;
+    }
+    .features-cont .text-features{
+        padding:0;
+        padding-top:20px;
+        padding-left:20px;
+    }
+    .features-cont .text-left{
+        padding:0;
+        padding-top:40px;
+        /*padding-left:20px;*/
+    }
+}

@@ -13,7 +13,7 @@ import arrowwhite from "../../assets/arrow-right-white.svg";
 const UpdatedVersion = () => (
     <Container fluid>
         <Row className="updated-version-container">
-            <Col md={5} className="align-middle">
+            <Col md={5} xs={6} className="align-middle">
                 <h2 className="updated-version">See the latest <span><Image
                     src={fulger}
                     fluid

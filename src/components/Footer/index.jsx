@@ -1,18 +1,98 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { useEffect, useState } from "react";
+import {Container, Row, Col} from 'react-bootstrap';
 // import TestimonialCard from '../../shared/TestimonialCard';
 // import MascotImage from '../../shared/MascotImage';
+import '../../css/general.css';
+import '../../css/footer.css';
 
-const Footer = () => (
-    <Container fluid className="text-white p-5">
-        {/*<h2>Trusted by over 32,000 founder customers</h2>*/}
-        <Row>
-            {/*<Col md={4}><TestimonialCard name="Jane Doe" quote="Sally’s robot changed my business..." /></Col>*/}
-            {/*<Col md={4}><TestimonialCard name="John Smith" quote="Incredible technology..." /></Col>*/}
-            {/*<Col md={4}><TestimonialCard name="Alice Johnson" quote="Highly recommend Sally..." /></Col>*/}
-        </Row>
-        {/*<MascotImage className="mt-3" />*/}
-    </Container>
-);
+const Footer = () => {
+    const [isDesktop, setDesktop] = useState(window.innerWidth < 760);
+
+    const updateMedia = () => {
+        setDesktop(window.innerWidth < 760);
+    };
+
+    useEffect(() => {
+        window.addEventListener("resize", updateMedia);
+        console.log(isDesktop);
+        return () => window.removeEventListener("resize", updateMedia);
+    });
+    return(<footer className="footer">
+        <Container className="">
+            <Row className="justify-content-between align-items-start footer-row">
+                <Col md={2} xs={6} className="text-start">
+                    <h5>Menu</h5>
+                    <h6>Home</h6>
+                    <h6>Product</h6>
+                    <h6>Resources</h6>
+                    <h6>Community</h6>
+                    <h6>Contact</h6>
+                    <h6>About</h6>
+                </Col>
+                <Col md={2}xs={6} className="text-start">
+                    <h5>Product</h5>
+                    <h6>Robot</h6>
+                    <h6>System AI</h6>
+                    <h6>Stream</h6>
+                    <h6>DNC</h6>
+                </Col>
+                <Col md={2} xs={6} className="text-start">
+                    <h5>Solutions</h5>
+                    <h6>System Error</h6>
+                    <h6>Video Delivery</h6>
+                    <h6>Payment</h6>
+                    <h6>Processing</h6>
+                </Col>
+                <Col md={2} xs={6} className="text-start">
+                    <h5>FAQ</h5>
+                    <h6>Account</h6>
+                    <h6>Manage Deliveries</h6>
+                    <h6>Orders</h6>
+                    <h6>Payments</h6>
+                    <h6>Copyright</h6>
+                    <h6>Language</h6>
+                </Col>
+                <Col md={2} xs={6} className="text-start">
+                    <h5>Support</h5>
+                    <h6>Online Chat</h6>
+                    <h6>Open Live Chat</h6>
+                    <h6>Call Center</h6>
+                </Col>
+                {isDesktop ? ( <Col  xs={6}className="text-start">
+                        <h5>Developers</h5>
+                        <h6>Developers Hub</h6>
+                        <h6>Developers Call</h6>
+                        <h6>API</h6>
+                    </Col>
+                    ) : ''}
+            </Row>
+            <Row className="justify-content-between align-items-start footer-row">
+                <Col md={2} xs={6} className="text-start">
+                </Col>
+                <Col md={2} xs={6} className="text-start">
+
+                </Col>
+                {!isDesktop ? (
+                <Col md={2} xs={6}className="text-start">
+                    <h5>Developers</h5>
+                    <h6>Developers Hub</h6>
+                    <h6>Developers Call</h6>
+                    <h6>API</h6>
+                </Col>
+                ) : ''}
+                <Col md={2} xs={6}className="text-start">
+                    <h5>Resources</h5>
+                    <h6>System Network</h6>
+                    <h6>Company Service</h6>
+                    <h6>Assets AI</h6>
+                </Col>
+                <Col md={2} xs={6}className="text-start">
+
+                </Col>
+            </Row>
+        </Container>
+    </footer>
+)};
 
 export default Footer;

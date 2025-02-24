@@ -9,18 +9,18 @@ import infrared from "../../assets/infrared.svg";
 const Hero = () => (
     <Container fluid>
         <Row>
-            <Col md={7}>
+            <Col md={7} sm={12}>
                 <h1>MAKE YOUR PERSONALITY INTO TECHNOLOGY.</h1>
                 <Col md={8}>
                 <h6>Robot technology is faster with the latest systems that make it possible your partner and ready to
                     serve your needs. Enter email to get product launch information</h6>
 
                 <InputGroup className="mb-6 hero-input">
-                    <FormControl placeholder="Search..."/>
+                    <FormControl placeholder="Enter your email address"/>
                     <CustomButton variant="submit">Submit</CustomButton>
                 </InputGroup>
                 <Row>
-                    <Col md={6} className="justify-content-center text-center hero-group">
+                    <Col md={6} sm={6} className="justify-content-center text-center hero-group">
                         <Image
                             src={rtx}
                             fluid // Makes the image responsive and scales it to fit the container
@@ -31,7 +31,7 @@ const Hero = () => (
                             Using the <strong>RTX-1134 </strong> processor
                         </h5>
                     </Col>
-                    <Col md={6} className="justify-content-center text-center hero-group">
+                    <Col md={6} sm={6} className="justify-content-center text-center hero-group">
                         <Image
                             src={infrared}
                             fluid // Makes the image responsive and scales it to fit the container
@@ -46,7 +46,7 @@ const Hero = () => (
                 </Row>
                 </Col>
             </Col>
-            <Col md={5} ><Mascot/></Col>
+            <Col md={5}  sm={12}><Mascot/></Col>
         </Row>
     </Container>
 );

@@ -8,12 +8,12 @@ import elipse2 from "../../assets/Elipse2.svg";
 const FeaturesSection = () => (
     <Container fluid>
         <Row className=" features-cont">
-            <Col md={3} className="align-middle">
+            <Col md={3} xs={8} className="align-middle">
                 <h3 className="features">Updated Main <span>Features</span></h3>
             </Col>
 
 
-            <Col md={5} className="d-flex flex-row align-items-center text-left text-features">
+            <Col md={5} xs={10} className="d-flex flex-row align-items-center text-left text-features">
                 <Image
                     src={elipse}
                     fluid
@@ -25,7 +25,7 @@ const FeaturesSection = () => (
                     sensitive</h5>
                 </div>
             </Col>
-            <Col md={4} className="d-flex flex-row align-items-center text-left">
+            <Col md={4} xs={10} className="d-flex flex-row align-items-center text-left">
                 <Image
                     src={elipse2}
                     fluid

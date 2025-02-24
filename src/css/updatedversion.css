@@ -45,3 +45,13 @@ h6.read-more{
 .simple-card-last{
     padding-left: 50px;
 }
+@media only screen and (max-width: 760px) {
+    h3.features{
+        font-size:28px;
+        font-weight:600;
+        padding-top:24px;
+    }
+    .version-font{
+        padding-top:40px;
+    }
+}

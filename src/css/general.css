@@ -1,33 +1,37 @@
-body{
+body {
     font-family: Poppins, sans-serif !important;
-    overflow-x:hidden;
+    overflow-x: hidden;
 }
+
 /*@media only screen and (max-width: 1444px) {*/
-    .navbar {
-        padding-left: 8.6vw;
-        padding-right: 8.6vw;
-        padding-top: 32px;
-        background-color: #1B088C;
-    }
-/*}*/
-/*@media only screen and (min-width: 1445px) {*/
-/*    .navbar {*/
-/*        width: 1194px;*/
-/*        padding-top: 32px;*/
-/*       */
-/*        background-color: #1B088C;*/
-/*        !*padding-left: 125px;*!*/
-/*        !*padding-right: 125px;*!*/
-/*        !*padding-top: 32px;*!*/
-/*        !*background-color: #1B088C;*!*/
-/*    }*/
-/*}*/
-.navbar > a{
-    color:white;
+.navbar {
+    padding-left: 8.6vw;
+    padding-right: 8.6vw;
+    padding-top: 32px;
+    background-color: #1B088C;
 }
-.nav-link{
-    color:white !important;
-    font-size:16px!important;
+
+/*}*/
+@media only screen and (min-width: 1000px) {
+    .navbar {
+        justify-content: center;
+    }
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    border: none;
+    border-width: 0;
+    border-color: rgba(255, 102, 203, 0);
+}
+
+.navbar > a {
+    color: white;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 16px !important;
     padding-right: 40px !important;
 }
 
@@ -35,37 +39,40 @@ body{
     body {
         background-color: lightblue;
     }
-    h1{
-        font-size:40px;
+
+    h1 {
+        font-size: 40px;
     }
 
 }
+
 @media only screen and (max-width: 970px) {
     body {
         background-color: lightblue;
     }
-    h1{
-        font-size:30px;
+
+    h1 {
+        font-size: 30px;
     }
 }
-.col, .col-5{
-    color:white!important;
-    border: 5px solid red;
-}
-.row{  color:white!important;
+
+.row {
+    color: white !important;
 
 }
-.images-hero-background{
+
+.images-hero-background {
     /*position: relative;*/
-    margin-top:50px
+    margin-top: 50px
 
 }
+
 .img-ellipse {
     width: 743px;
     height: 743px;
     object-fit: cover;
     /*margin-left: -330px;*/
-    position:absolute;
+    position: absolute;
     left: 50%;
 }
 
@@ -78,13 +85,15 @@ body{
     left: 44%;
     margin-top: 80px;
 }
-h5{
+
+h5 {
     font-size: 18px;
     font-weight: 400;
     text-align: left;
     line-height: 1.5;
 }
-h5.text-hero-group, h5.text-hero-group-infrared{
+
+h5.text-hero-group, h5.text-hero-group-infrared {
     font-size: 18px;
     font-weight: 400;
     text-align: left;
@@ -95,13 +104,14 @@ h5.text-hero-group, h5.text-hero-group-infrared{
 }
 
 
-h6{
+h6 {
     font-size: 16px;
     font-weight: 400;
     text-align: left;
     color: rgba(225, 225, 225, 0.7);
     line-height: 1.5;
 }
+
 @media only screen and (max-width: 1444px) {
     h3 {
         font-size: 2.2vw;
@@ -112,6 +122,7 @@ h6{
     h2 {
         font-size: 3.5vw;
     }
+
     h1 {
         font-family: Montserrat;
         float: left;
@@ -122,6 +133,67 @@ h6{
     }
 
 }
+
+@media only screen and (max-width: 760px) {
+    h3 {
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+    h3.features {
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h1 {
+        font-family: Montserrat;
+        float: left;
+        text-align: left;
+        margin-bottom: 11px;
+        /*font-size:60px;*/
+        font-size: 40px;
+    }
+
+    .images-hero-background {
+        height: 500px;
+    }
+
+    .images-hero-background .img-ellipse {
+        /*position: static;*/
+        left: 0;
+    }
+
+    .images-hero-background .img-hero {
+        /*margin-top: 20%;*/
+        /* margin: auto; */
+        left: 0;
+    }
+    .hero-clients-container{
+        padding-top: 200px;
+    }
+    .navbar-nav{
+        justify-content:start!important;
+        text-align: left;
+        padding-top:20px;
+    }
+    .navbar .button_navbar{
+        width: 100%;
+        /*margin-top: 100px;*/
+        margin-top: 50px;
+    }
+    .navbar-collapse.collapse.show{
+        height:100%;
+    }
+    .navbar-nav a{
+        padding-top:10px;
+    }
+}
+
 @media only screen and (min-width: 1445px) {
     h3 {
         font-size: 32px;

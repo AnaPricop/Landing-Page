@@ -11,6 +11,7 @@ import HowRobotWorks from './HowRobotWorks';
 // import CallToAction from './CallToAction';
 import '../../css/general.css';
 import '../../css/hero.css';
+import CustomersSection from "./CustomersSection";
 
 const MainContent = () => {
     return (
@@ -29,6 +30,8 @@ const MainContent = () => {
             </Container>
 
             <HowRobotWorks/>
+            <CustomersSection/>
+
             {/*<UpdateSection />*/}
             {/*<RobotShowcase />*/}
             {/*<OptimizationTips />*/}

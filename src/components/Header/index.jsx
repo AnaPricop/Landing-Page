@@ -9,7 +9,7 @@ const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <Navbar expand="lg" className="m-auto justify-content-center">
+        <Navbar expand="lg" className="m-auto ml-auto navbar-right">
             <Navbar.Brand href="#"><svg id="Logo" xmlns="http://www.w3.org/2000/svg" width="88" height="26" viewBox="0 0 88 26">
                 <path id="Vector" d="M20.548,11.3a.69.69,0,0,0-.644-.47H11.617L16.4,1.053a.746.746,0,0,0-.186-.9.659.659,0,0,0-.873.02L.238,13.9a.747.747,0,0,0-.195.8.69.69,0,0,0,.643.471H8.974l-4.781,9.78a.746.746,0,0,0,.186.9.659.659,0,0,0,.873-.02L20.353,12.1A.748.748,0,0,0,20.548,11.3Z" fill="#fff"/>
                 <path id="Vector-2" data-name="Vector" d="M37.789,6.86V8.818H34.725v10.14H32.419V8.818H29.355V6.86Z" fill="#fff"/>
@@ -21,7 +21,7 @@ const Header = () => {
                 <path id="Vector-8" data-name="Vector" d="M84.359,9.217A3.413,3.413,0,0,1,87,10.309a4.247,4.247,0,0,1,1,3.016v5.633H85.694v-5.3A2.54,2.54,0,0,0,85.15,11.9a1.865,1.865,0,0,0-1.483-.624,1.934,1.934,0,0,0-1.516.624,2.54,2.54,0,0,0-.544,1.751v5.3H79.3v-9.6h2.306v1.2a3.158,3.158,0,0,1,1.17-.971A3.474,3.474,0,0,1,84.359,9.217Z" fill="#fff"/>
             </svg>
             </Navbar.Brand>
-            <Navbar.Toggle onClick={() => setIsMenuOpen(!isMenuOpen)} />
+            <Navbar.Toggle className=" ml-auto hidden-sm-up float-xs-right" onClick={() => setIsMenuOpen(!isMenuOpen)} />
             <Navbar.Collapse isOpen={isMenuOpen}>
                 <Nav className="me-auto m-auto justify-content-center">
                     <Nav.Link href="#">Home</Nav.Link>

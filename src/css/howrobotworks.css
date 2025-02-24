@@ -16,11 +16,14 @@ text-align:left;
     padding-top: 9.5vw;
     background-color:#0A0048;
     padding-bottom:9.5vw;
+    background-image: url('src/assets/sally_bottom.svg'); /* Paths to your SVG files */
+    background-repeat: no-repeat; /* Prevent repeating */
+    background-position: bottom right; /* Position abstract shape left, robot right */
 }
 .img-hero-works {
     position: absolute;
-    width: 724px;
-    height: 734px;
+    width: 50vw;
+    height: 50vw;
     left: 3.5vw;
     margin-top: -60px;
 }
@@ -57,4 +60,29 @@ h6.read-more{
     /*height: 27.7vw;*/
     right:0;
     padding:0;
+}
+@media only screen and (max-width: 760px) {
+    .how-robot-works-first .row{
+        flex-direction: row-reverse !important;
+    }
+    .img-hero-works {
+        position: absolute;
+        width: 379px;
+        height:483px;
+        left: 3.5vw;
+        /*margin-top: -60px;*/
+        margin-top:10px;
+    }
+    .how-robot-works-second{
+        padding-top:190px;
+    }
+    .text-end{
+        text-align:left!important;
+    }
+    .how-robot-works-first{
+        padding-left:0;
+    }
+    .second-robot{
+        height:340px;
+    }
 }
