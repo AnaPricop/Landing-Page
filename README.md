@@ -9,5 +9,16 @@ Currently, two official plugins are available:
 
 
 # Install
-npm install
-npm run dev
+
+```bash
+  git clone https://github.com/AnaPricop/Landing-Page.git
+```
+
+```bash
+  npm install
+```
+
+```bash
+  npm run dev
+```
+
